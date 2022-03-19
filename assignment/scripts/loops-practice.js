@@ -54,7 +54,7 @@ console.log('---- 3. While loop ----');
 console.log('Some stars using while:');
 let index = 0;
 while (index < stars.length) {
-  console.log(stars[index]); // I was struggling logging each star individually (I could get it to log the array as a whole). This website helped me understand that I could use my index variable, which is a number, to log the specific index of the stars array with each loop (and the index will increase each time, giving me the next star, becase I'm incrementing the index variable each loop) https://levelup.gitconnected.com/five-ways-to-loop-through-a-javascript-array-3325f4673334
+  console.log(stars[index]); // I was struggling logging each star individually (I could get it to log the array as a whole). This website helped me understand that I could use my index variable, which is a number, to log the specific index of the stars array with each pass of the loop (and the index will increase each time, giving me the next star, becase I'm incrementing the index variable) https://levelup.gitconnected.com/five-ways-to-loop-through-a-javascript-array-3325f4673334
   index++;
   //console.log(index);
 }
